@@ -1,0 +1,20 @@
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: #c6471d;
+    font-weight: bold;
+    border-bottom: 2px solid #c6471d;
+}
+
+.navigation {
+    display: flex;
+    gap: 100px;
+    font-size: 25px;
+}
